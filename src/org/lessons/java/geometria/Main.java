@@ -2,6 +2,9 @@ package org.lessons.java.geometria;
 
 import java.util.Scanner;
 
+import it.prova.Disegni;
+
+
 public class Main {
 
 
@@ -32,19 +35,20 @@ public class Main {
 		//variabili principali
 		int area;
 		int perimetro;
+		String disegno;
 		
-		//invoco i metodi della classe Rettangolo per i calcoli e assegno alla variabile corrispondente
+		//invoco il metodo della classe Rettangolo per i calcoli e assegno alla variabile corrispondente
 		area = rettangolo.calcoloArea();
-		System.out.println(area);
+		System.out.println("L'area del rettangolo è: " + area  + "\n");
 		
-		//invoco i metodi della classe Rettangolo per i calcoli e assegno alla variabile corrispondente
+		//invoco il metodo della classe Rettangolo per i calcoli e assegno alla variabile corrispondente
 		perimetro = rettangolo.calcoloPerimetro();
-		System.out.println(perimetro);
+		System.out.println("Il perimetro del rettangolo è: " + perimetro + "\n");
 		
-//		*********DISEGNO RETTANGOLO**************
-		
-		//invoco il metodo che stampa il disegno del rettangolo
-
+		//invoco il metodo che disegna il rettangolo
+		rettangolo.disegnoRettangolo();
 	}
-
+		
 }
+		
+
