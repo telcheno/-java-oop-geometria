@@ -2,9 +2,6 @@ package org.lessons.java.geometria;
 
 import java.util.Scanner;
 
-import it.prova.Disegni;
-
-
 public class Main {
 
 
