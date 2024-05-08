@@ -6,6 +6,10 @@ public class DisegnoFigura {
 	//creo il metodo protected disegno incapsolando i parametri e che sia 
 	protected void getDisegno(int base, int altezza) {
 		
+		//uso come nome della variabile y nel for che corrisponde al asse verticale == altezza
+		//uso come nome della variabile x nel for che corrisponde al asse orizontale == base
+		
+			//il for del asse y itera il ciclo per disegnare ogni linea del rettangolo dal alto verso il basso
 			for(int  y = 0;  y <= altezza; y++) {
 				
 					//il for del asse x itera il cilo che stampa ogni elemento da sinistra verso destra
