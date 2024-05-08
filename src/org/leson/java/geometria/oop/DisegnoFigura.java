@@ -1,8 +1,10 @@
 package org.leson.java.geometria.oop;
 
+//creo la classe con il costruttore del disegno
 public class DisegnoFigura {
 	
-	public void disegno(int base, int altezza) {
+	//creo il metodo protected disegno incapsolando i parametri e che sia 
+	protected void getDisegno(int base, int altezza) {
 		
 			for(int  y = 0;  y <= altezza; y++) {
 				

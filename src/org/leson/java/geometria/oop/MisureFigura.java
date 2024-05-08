@@ -1,16 +1,21 @@
 package org.leson.java.geometria.oop;
 
+//creo la classe con le variabili private
 public class MisureFigura {
-	public int base;
-	public int altezza;
+	protected int base;
+	protected int altezza;
+	protected int area;
+	protected int perimetro;
 	
-	public int calcoloArea() {
-		int  area = base * altezza;
-		return area;
+	//creo il metodo calcolo area incapsuloando i parametri per poterli valorizzare
+	protected int getCalcoloArea(int base, int altezza) {
+		this.area = this.base * this.altezza;
+		return this.area;
 	}
 	
-	public int calcoloPerimetro() {
-		int perimetro = (base + altezza) * 2;
-		return perimetro;
+	//creo il metodo calcolo perimetro incapsuloando i parametri per poterli valorizzare
+	protected int getPalcoloPerimetro(int base, int altezza) {
+		this.perimetro = (this.base + this.altezza) * 2;
+		return this.perimetro;
 	}
 }
