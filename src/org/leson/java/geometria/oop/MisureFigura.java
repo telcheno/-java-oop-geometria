@@ -1,6 +1,6 @@
 package org.leson.java.geometria.oop;
 
-//creo la classe con le variabili private
+//creo la classe con le variabili protected
 public class MisureFigura {
 	protected int base;
 	protected int altezza;
