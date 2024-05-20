@@ -13,7 +13,7 @@ public class DisegnoFigura {
 			for(int  y = 1;  y <= altezza; y++) {
 				
 					//il for del asse x itera il cilo che stampa ogni elemento da sinistra verso destra
-					for(int x = 1; x <= base; x++) {
+					for(int x = 1  ; x <= base; x++) {
 						
 					//uso un condizionale per stampare gli elementi
 						//SE y è == 0 o y == alteza cio è nel asse verticale
